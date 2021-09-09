@@ -1,0 +1,18 @@
+[package]
+name = "gamozo_website"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syntect = "4.4"
+pulldown-cmark = "0.8.0"
+gh-emoji = "1.0.6"
+base64 = "0.13.0"
+mime_guess = "2.0.3"
+toml = "0.5.8"
+tokio = { version = "1.11.0", features = ["rt-multi-thread", "fs", "macros"] }
+serde = "1"
+serde_derive = "1"
+chrono = { version = "0.4.19", features = ["serde"] }

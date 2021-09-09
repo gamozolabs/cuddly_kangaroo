@@ -1,0 +1,99 @@
+body {
+    font-family: Sans-Serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #ffffff;
+    color: #0d1321;
+}
+
+pre {
+    overflow: auto;
+}
+
+main#content {
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 60em;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    filter: invert(31%) sepia(15%) saturate(1224%) hue-rotate(166deg) brightness(99%) contrast(87%);
+}
+
+.navbar li a:hover {
+    background-color: #3e5c76;
+    color: #000000;
+    filter: invert(100%) sepia(2%) saturate(7490%) hue-rotate(193deg) brightness(104%) contrast(101%);
+}
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+  display: none;
+}
+
+.list-posts .list-title {
+  text-align: center;
+}
+.list-posts .posts-year {
+  margin-top: 70px;
+}
+.list-posts .post-title {
+  margin: 18px 0 0 15px;
+}
+.list-posts a {
+  text-decoration: none;
+}
+.post-title .post-link,
+.post-title .post-date {
+  display: inline-block;
+}
+.post-title .post-link {
+  width: 80%;
+}
+.tags-list .post-tags {
+  margin-top: 50px;
+}
+.tags-list .post-tags .post-tag {
+  margin: 2px 5px;
+  padding: 0;
+}
+.tags-list .post-tags .post-tag a {
+  border-radius: inherit;
+  padding: 0;
+}
+.tags-list .post-tags .post-tag a div {
+  display: inline-block;
+}
+.tags-list .post-tags .post-tag a .tag-name {
+  padding: 5px 8px;
+}
+.tags-list .post-tags .post-tag a .tag-posts-count {
+  background-color: var(--light-secondary-color);
+  border-radius: inherit;
+  color: inherit;
+  opacity: 0.8;
+  padding: 6px;
+  position: relative;
+  z-index: 0;
+}
+.tags-list .post-tags .post-tag:hover a .tag-posts-count {
+  background-color: var(--light-text-color);
+  color: rgb(var(--light-primary-color));
+}
