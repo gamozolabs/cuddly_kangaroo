@@ -1,0 +1,6 @@
+syntax_theme = "InspiredGitHub"
+content_path = "gamozolabs.com"
+output_path  = "out_gamozolabs"
+base_file    = "index.md"
+header_file  = "header.md"
+
